@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
- 
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}" >
     <title>Django app</title>
+    
 
 </head>
 <body>
     <h1>Trying django from scratch</h1>
-    {{ insert_me }}
-
+    <img src = "{% static "images/forest.jpg" %}" alt="didnt show">
+     
 
 </body>
 </html>
